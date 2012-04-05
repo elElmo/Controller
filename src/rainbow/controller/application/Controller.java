@@ -83,6 +83,11 @@ public class Controller extends Thread {
 			current.interrupt();
 		}
 */
+		listener.workBlockComplete(block);
+		System.out.println("Lying: Workblock complete (" + 
+			block.getStartBlockNumber() + ", " +
+			block.getEndBlockNumber() + ", " +
+			block.getStringLength() + ")");
 	}
 
 //	@Override
