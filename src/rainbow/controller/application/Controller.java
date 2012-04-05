@@ -74,6 +74,7 @@ public class Controller extends Thread {
 	};
 
 	public void bruteForce(WorkBlockSetup block) {
+/*
 		current = new BruteForcer(query, block, listener);
 		current.start();  
 		try {
@@ -81,6 +82,7 @@ public class Controller extends Thread {
 		} catch (InterruptedException e) {
 			current.interrupt();
 		}
+*/
 	}
 
 //	@Override
